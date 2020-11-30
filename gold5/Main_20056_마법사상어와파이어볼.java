@@ -75,7 +75,6 @@ public class Main_20056_마법사상어와파이어볼 {
         while (!currentFireballs.isEmpty()) {
             Fireball fireball = currentFireballs.poll();
             result += fireball.m;
-            map[fireball.r][fireball.c].offer(fireball);
         }
         return result;
     }
